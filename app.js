@@ -82,7 +82,7 @@ yargs.command({
 
 // LIST
 yargs.command({
-  command: "list",
+  command: "listt",
   describe: "List Note",
   handler() {
     notes.listNotes();
